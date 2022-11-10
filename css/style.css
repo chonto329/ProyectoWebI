@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Caveat-VariableFont_wght';
+    src: url(../fonts/Caveat-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: 'Caveat-VariableFont_wght', Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    background-image: url(../img/img2.jpg);
+    height: 1368px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+/*--------header-------*/
+.header{
+background: #333;
+color: white;
+padding: 2rem 0;
+opacity: 0.9;
+
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    }
+.container{
+    width: 85%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.2em;
+}
+.page-select{
+    background: #4a4a4a;
+}
+.icon-menu{
+    display: none;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding:  1rem 1rem;  
+    transition:  all 0.4s linear;
+   
+}
+.navigation ul li a:hover{
+    background: #4a4a4a;
+}
+
+/*--------footer-------*/
+.footer{
+    position: relative;
+    top:-97px;
+    background: #333;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+    opacity: 0.9;
+}
+.parrafo{
+    color: white;
+}
+
+
+@media only screen and (max-width : 912px) {
+    
+
+    .icon-menu{
+        display: block;
+        cursor: pointer;
+        padding:  1rem 1rem; 
+    }
+
+    .navigation{
+        width: 100%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .navigation ul{
+        height: 0;
+        overflow: hidden;
+        transition: all 0.4s;
+    }
+    .navigation ul.show{
+        height: 153px;
+    }
+    .navigation ul li{
+        display: block;
+        
+    }
+    
+}

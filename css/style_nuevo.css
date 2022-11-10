@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Caveat-VariableFont_wght';
+    src: url(../fonts/Caveat-VariableFont_wght.ttf);
+}
+body{
+   
+    height: 868px;
+}
+.main{
+    background: #f3f3f3;
+    width: 85%;
+    max-width: 890px;
+    margin: auto;
+    height: 600px;
+   
+}
+.form{
+   position: relative;
+   top:80px;
+    margin: 2000px;
+    width: 600px;
+    background: #333;
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.titulo{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.control{
+    font-family: 'Caveat-VariableFont_wght', Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    background: #333;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #f1f1f1;
+    font-size: 20px;
+    color: white;
+}
+.boton{
+    font-family: 'Caveat-VariableFont_wght', Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 12px;
+    color: #000;
+    margin: 16px 0;
+    font-size: 25px;
+
+}
+.boton:hover{
+    cursor: pointer;
+    background: #333;
+    color: white;
+    border: 0.5px solid white;
+}
+
+@media only screen and (max-width : 910px) {
+
+    body{
+        height: 883px;
+    }
+}
+@media only screen and (max-width : 855px) {
+
+    .form{
+        width: 550px;
+    }
+
+}
+@media only screen and (max-width : 750px) {
+
+    .form{
+        width: 500px;
+    }
+
+}
+@media only screen and (max-width : 680px) {
+
+    .form{
+        width: 450px;
+    }
+
+}
+@media only screen and (max-width : 590px) {
+
+    .form{
+        width: 400px;
+    }
+    .control{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width : 525px) {
+
+    .form{
+        width: 350px;
+    }
+    .control{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width : 460px) {
+
+
+    .form{
+        width: 300px;
+    }
+    .control{
+        font-size: 12px;
+    }
+    
+
+}
+@media only screen and (max-width : 408px) {
+
+
+    .form{
+        width: 280px;
+    }
+    .titulo{
+        font-size: 18px;
+    }
+    .control{
+        font-size: 9.5px;
+    }
+    .boton{
+        font-size: 15px;
+    }
+
+}
+@media only screen and (max-width : 380px) {
+
+
+    .form{
+        width: 260px;
+    }
+    .control{
+        font-size: 9px;
+    }
+    
+
+}
+@media only screen and (max-width : 360px) {
+
+
+    .form{
+        width: 240px;
+    }
+    .control{
+        font-size: 8.5px;
+    }
+    
+
+}
+@media only screen and (max-width : 320px) {
+
+
+    .form{
+        width: 220px;
+    }
+    .control{
+        font-size: 7.5px;
+    }
+    
+
+}
+@media only screen and (max-width : 290px) {
+
+
+    .form{
+        width: 200px;
+    }
+    .control{
+        font-size: 6.5px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    
+
+}
